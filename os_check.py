@@ -1,7 +1,6 @@
 #!/usr/bin/python
 import platform
 import sys
-# does not currently work on RHEL/CENTOS 5
 
 supported_centos = ['5', '6', '7']
 supported_ubuntu = ['12', '14', '16']
