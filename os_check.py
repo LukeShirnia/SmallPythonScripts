@@ -2,34 +2,24 @@
 import platform
 import sys
 
-#global os_platform
-
-def version_check():
-        global os_version, supported_centos, supported_ubuntu, CentOS_RedHat_Distro
-        CentOS_RedHat_Distro = ['redhat', 'centos', 'red']
-        Ubuntu_Debian_Distro = ['ubuntu', 'debian']
-        supported_centos = [6, 7]
-        supported_ubuntu = [12, 14, 16]
-        os_version = platform.linux_distribution()[1]
-        os_version_test = os_version.split()
-
-        if os_distro.lower() in CentOS_RedHat_Distro:
-                print os_distro, os_version
-        elif os_distro.lower() in Ubuntu_Debian_Distro:
-                print os_distro, os_version
-        else:
-                print os_distro, os_version
-                print "Something wrong"
+supported_centos = [6, 7]
+supported_ubuntu = [12, 14, 16]
+CentOS_RedHat_Distro = ['redhat', 'centos', 'red', 'red hat']
+Ubuntu_Debian_Distro = ['ubuntu', 'debian']
 
 def os_check():
-        global os_distro, os_version, os_platform
         os_platform = platform.system()
-
         if os_platform == "Linux":
-                os_distro = platform.linux_distribution()[0]
-                os_distro = os_distro.split()[0]
-                version_check()
+                distro = platform.linux_distribution()[0]
+                distro = distro.split()[0]
+                return distro
         else:
-                print "Stop Using A Rubish OS"
+                print "Stop Using a Rubbish OS!!"
 
-os_check()
+os_check_value = os_check()
+if os_check_value.lower() in CentOS_RedHat_Distro:
+        print "RedHat"
+elif os_check_value.lower() in Ubuntu_Debian_Distro:
+        print "Ubuntu"
+else:
+        print "OS Not Recognised"
