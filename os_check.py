@@ -4,7 +4,7 @@ import sys
 # does not currently work on RHEL/CENTOS 5
 
 supported_centos = ['5', '6', '7']
-supported_ubuntu = [12, 14, 16]
+supported_ubuntu = ['12', '14', '16']
 CentOS_RedHat_Distro = ['redhat', 'centos', 'red', 'red hat']
 Ubuntu_Debian_Distro = ['ubuntu', 'debian']
 
@@ -13,8 +13,10 @@ def version_check():
 	os_version = os_version.split(".")[0]
 	
 	if os_version in supported_centos:
+		print "Supported RedHat/CentOS"
 		print platform.linux_distribution()[1]
 	elif os_version in supported_ubuntu:
+		print "Supported Ubuntu/Debian"
 		print platform.linux_distribution()[1]
 	else:
 		print "Something wrong"
