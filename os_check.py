@@ -16,6 +16,7 @@ def os_check():
                 return distro
         else:
                 print "Stop Using a Rubbish OS!!"
+                return "Error"
 
 os_check_value = os_check()
 if os_check_value.lower() in CentOS_RedHat_Distro:
