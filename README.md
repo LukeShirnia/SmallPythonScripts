@@ -6,8 +6,8 @@ Supported OS check
 
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/os_check.py | python`
-
-
+<br />
+<br />
 Check time minus 10 and 80 mins
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_time_examples.py | python`
