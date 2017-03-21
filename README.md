@@ -2,7 +2,7 @@
 
 
 
-Supported OS check
+### Supported OS check
 
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/os_check.py | python`
@@ -20,7 +20,7 @@ Supported RedHat/CentOS
 
 <br />
 
-Check time minus 10 and 80 mins
+### Check time, and time mins 10 and 80 mins
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_time_examples.py | python`
 
