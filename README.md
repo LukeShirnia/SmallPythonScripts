@@ -6,7 +6,12 @@ Supported OS check
 
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/os_check.py | python`
-
+Example Output:
+```
+CentOS
+Supported RedHat/CentOS
+7.3.1611
+```
 <br />
 
 <br />
