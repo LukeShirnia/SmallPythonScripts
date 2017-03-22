@@ -38,7 +38,7 @@ Minus 1 hour 20 mins    Mar 21 12:34
 
 <br />
 
-### Get Mac Addresses From a File
+### Get UUIDs From a File
 
 The following command takes 1 argument. Replace `file` with the path to a file you wish to extract UUIDs from
 
