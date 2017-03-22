@@ -1,0 +1,29 @@
+#!/usr/bin/python
+# Script to get UUIDs from a file
+# Author: Luke Shirnia
+# git https://github.com/LukeShirnia
+
+import re
+from sys import argv
+
+
+def get_uuids(file_to_inspect):
+	regex = re.compile('^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}')
+	with open(file_to_inspect, "r") as inFile:
+        	for line in inFile:
+                	line.strip()
+	                if regex.match(line):
+	                        print line.strip()
+
+
+if len(argv) == 1:
+	print ""
+	print "Please enter full file path"
+	print "Example."
+	print "        python get_uuids /home/file"
+	print ""
+elif len(argv) == 2:
+	script, file_to_inspect = argv
+	get_uuids(file_to_inspect)
+else: 
+	print "Too Many Arguments"
