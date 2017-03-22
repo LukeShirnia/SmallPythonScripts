@@ -40,6 +40,8 @@ Minus 1 hour 20 mins    Mar 21 12:34
 
 ### Get Mac Addresses From a File
 
+The following command takes 1 argument. Replace `file` with the path to a file you wish to extract UUIDs from
+
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_mac_addresses | python - file`
 
 Example output:
