@@ -37,6 +37,7 @@ Minus 1 hour 20 mins    Mar 21 12:34
 <br />
 
 <br />
+
 ### Get Mac Addresses From a File
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_mac_addresses | python - file`
