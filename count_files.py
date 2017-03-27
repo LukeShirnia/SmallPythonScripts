@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# Author:       Luke Shirnia
+# Source:       https://github.com/LukeShirnia/SmallPythonScripts/blob/master/count_files.py
 
 from sys import argv
 import sys
