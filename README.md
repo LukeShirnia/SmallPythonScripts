@@ -53,3 +53,21 @@ faea7607-4f4e-4b05-a0b2-995510a15327
 54a4beaf-4b0a-473d-82e3-9a3cc371d879
 cd88c08e-ae5b-4ac4-b84d-4c79102402ad
 ```
+<br />
+
+<br />
+
+<br />
+
+
+### Count Files in a directory
+
+
+`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/count_files.py | python - "/var/www"`
+
+Example Output:
+
+```
+/var/www
+65,472 files, 27,003 folders
+```
