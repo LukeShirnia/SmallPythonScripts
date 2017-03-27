@@ -61,7 +61,7 @@ cd88c08e-ae5b-4ac4-b84d-4c79102402ad
 
 
 ### Count Files in a directory
-
+Replace "/var/www" with the directory you wish to count the files in. 
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/count_files.py | python - "/var/www"`
 
