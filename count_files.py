@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from sys import argv
+import sys
 import os
 
 def get_files_count(paths):
