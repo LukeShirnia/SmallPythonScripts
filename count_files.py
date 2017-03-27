@@ -16,7 +16,7 @@ if len(argv) == 1:
 	print "Please enter a path to count"
 if len(argv) == 2:
 	script, path1 = argv 
-	paths = path1
-	get_files_count(paths)
+#	paths = path1
+	get_files_count(path1)
 if len(argv) >= 3:
 	print "Too many arguments"
