@@ -10,8 +10,9 @@ def get_files_count(paths):
 		files += len(filenames)
 		folders += len(dirnames)
 	print paths
-	print "{:,} files, {:,} folders".format(files, folders)
-
+	#print "{:,} files, {:,} folders".format(files, folders)
+	print "{0} files, {1} folders".format(files, folders)
+	
 if len(argv) == 1:
 	print "Please enter a path to count"
 if len(argv) == 2:
