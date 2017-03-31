@@ -1,3 +1,6 @@
+from sys import argv
+import os
+
 def find_pids(pid_to_find):
 	       for pid in os.listdir('/proc'):
 				try:
