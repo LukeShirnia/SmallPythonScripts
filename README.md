@@ -71,3 +71,19 @@ Example Output:
 /var/www
 65,472 files, 27,003 folders
 ```
+<br />
+
+<br />
+
+<br />
+### Find PID of a Service
+Replace `httpd` with the service name you wish to find the pids for:
+ 
+`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/find_process.py | python - sshd`
+
+Example output:
+
+```
+/usr/sbin/sshd 1069
+/usr/sbin/sshd 3245
+```
