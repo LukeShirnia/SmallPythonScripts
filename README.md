@@ -76,7 +76,8 @@ Example Output:
 <br />
 
 <br />
-###  Find PID of a Service
+### Find PID of a Service
+
 Replace `httpd` with the service name you wish to find the pids for:
  
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/find_process.py | python - sshd`
