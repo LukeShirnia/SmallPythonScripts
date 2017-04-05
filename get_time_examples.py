@@ -15,4 +15,4 @@ now_mins_1440 = now_mins_1440.strftime('%b  %-d %H:%M') # %-d removed leading 0 
 print "Current time            %s" % (now_time)
 print "Minus 10:               %s" % (now_mins_10)
 print "Minus 1 hour 20 mins    %s" % (now_mins_80)
-print "- 24 hours (1440 mins)  %s" % (now_mins_1440)
+print "Minus 24 hours (1440 mins)  %s" % (now_mins_1440)
