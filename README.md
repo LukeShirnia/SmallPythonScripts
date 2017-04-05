@@ -28,9 +28,10 @@ Supported RedHat/CentOS
 Example output:
 
 ```
-Current time            Mar 21 13:54
-Minus 10:               Mar 21 13:44
-Minus 1 hour 20 mins    Mar 21 12:34
+Current time                Apr 05 06:18
+Minus 10:                   Apr 05 06:08
+Minus 1 hour 20 mins        Apr 05 04:58
+Minus 24 hours (1440 mins)  Apr  4 06:18 # replace leading 0 in single digit dates
 ```
 <br />
 
