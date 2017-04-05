@@ -20,7 +20,7 @@ Supported RedHat/CentOS
 
 <br />
 
-### Check time, and time mins 10 and 80 mins
+### Check time, and time mins 10 and 80 mins and 24 hours ago
 
 `curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_time_examples.py | python`
 
