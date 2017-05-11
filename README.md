@@ -1,5 +1,6 @@
 # SmallPythonScripts
 
+<br / >
 
 # IPs
 The following script can be used to convert CIDR noted IPs to dotted decimal. 
@@ -10,7 +11,7 @@ The following script can be used to convert CIDR noted IPs to dotted decimal.
 curl -s https://raw.githubusercontent.com/LukeShirnia/IPs/master/CIDR_to_dotted-decimal.py  | python - filename
 ```
 
-### Example File:
+Example File:
 
 ```
 123.456.789.123/21
@@ -26,6 +27,29 @@ Example Output:
 123.213.342.523 255.255.255.254
 123.764.34.234 255.240.0.0
 ```
+
+<br />
+
+<br />
+
+<br />
+
+### Get UUIDs From a File
+
+The following command takes 1 argument. Replace `file` with the path to a file you wish to extract UUIDs from
+
+`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_uuids | python - file`
+
+Example output:
+
+```
+13d4d403-920a-4a95-ad97-93f38501da8d
+faea7607-4f4e-4b05-a0b2-995510a15327
+90694e50-658c-4eee-af4c-e29bdb05ab6a
+54a4beaf-4b0a-473d-82e3-9a3cc371d879
+cd88c08e-ae5b-4ac4-b84d-4c79102402ad
+```
+
 
 <br />
 
@@ -103,25 +127,4 @@ Current time                Apr 05 06:18
 Minus 10:                   Apr 05 06:08
 Minus 1 hour 20 mins        Apr 05 04:58
 Minus 24 hours (1440 mins)  Apr  4 06:18 # replace leading 0 in single digit dates
-```
-<br />
-
-<br />
-
-<br />
-
-### Get UUIDs From a File
-
-The following command takes 1 argument. Replace `file` with the path to a file you wish to extract UUIDs from
-
-`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/get_uuids | python - file`
-
-Example output:
-
-```
-13d4d403-920a-4a95-ad97-93f38501da8d
-faea7607-4f4e-4b05-a0b2-995510a15327
-90694e50-658c-4eee-af4c-e29bdb05ab6a
-54a4beaf-4b0a-473d-82e3-9a3cc371d879
-cd88c08e-ae5b-4ac4-b84d-4c79102402ad
 ```
