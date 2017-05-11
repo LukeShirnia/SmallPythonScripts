@@ -19,7 +19,7 @@ curl -s https://raw.githubusercontent.com/LukeShirnia/IPs/master/CIDR_to_dotted-
 ```
 
 
-### Example Output:
+Example Output:
 
 ```
 123.456.789.123 255.255.248.0
