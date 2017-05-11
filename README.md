@@ -9,6 +9,8 @@ The following script can be used to convert CIDR noted IPs to dotted decimal.
 
 
 ### Method 1
+This method take an argument of a file name. Replace "filename" in the following command with the path to the file you have with all ips.
+
 ```
 curl -s https://raw.githubusercontent.com/LukeShirnia/IPs/master/CIDR_to_dotted-decimal.py  | python - filename
 ```
@@ -33,6 +35,7 @@ Example Output:
 <br />
 
 ### Method 2
+This takes an argument of a single ip with the --ip option. 
 ```
 curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/slash-notation_to_dotted-decimal.py  | python - --ip x.x.x.x/xx
 ```
