@@ -34,13 +34,13 @@ Example Output:
 
 ### Method 2
 ```
-curl -s https://raw.githubusercontent.com/LukeShirnia/IPs/master/CIDR_to_dotted-decimal.py  | python -ip x.x.x.x/xx
+curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/slash-notation_to_dotted-decimal.py  | python - --ip x.x.x.x/xx
 ```
 
 Example:
 
 ```
-curl -s https://raw.githubusercontent.com/LukeShirnia/IPs/master/CIDR_to_dotted-decimal.py  | python -ip 123.123.12.12/22
+curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/slash-notation_to_dotted-decimal.py  | python -ip 123.123.12.12/22
 ```
 
 Example Output:
