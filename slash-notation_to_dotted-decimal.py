@@ -28,7 +28,7 @@ if len(argv) == 2 and len(argv) < 3:
 		print "Please enter a valid file name"
 elif len(argv) == 3:
 	script, ip, ip_address = argv
-	if argv[1] == "-ip":
+	if argv[1] == "--ip":
 		try:
 			single_ip(ip_address)	
 		except Exception as e:
