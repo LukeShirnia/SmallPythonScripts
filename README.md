@@ -1,6 +1,36 @@
 # SmallPythonScripts
 
 
+# IPs
+The following script can be used to convert CIDR noted IPs to dotted decimal. 
+
+
+### Method 1
+```
+curl -s https://raw.githubusercontent.com/LukeShirnia/IPs/master/CIDR_to_dotted-decimal.py  | python - filename
+```
+
+### Example File:
+
+```
+123.456.789.123/21
+123.213.342.523/31
+123.764.34.234/12
+```
+
+### Example Output:
+
+```
+123.456.789.123 255.255.248.0
+123.213.342.523 255.255.255.254
+123.764.34.234 255.240.0.0
+
+<br />
+
+<br />
+
+<br />
+
 
 ### Supported OS check
 
@@ -14,6 +44,45 @@ CentOS
 Supported RedHat/CentOS
 7.3.1611
 ```
+
+<br />
+
+<br />
+
+<br />
+
+
+### Count Files in a directory
+Replace `"/var/www"` with the directory you wish to count the files in. 
+
+`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/count_files.py | python - "/var/www"`
+
+Example Output:
+
+```
+/var/www
+65,472 files, 27,003 folders
+```
+<br />
+
+<br />
+
+<br />
+
+### Find PID of a Service
+
+Replace `sshd` with the service name you wish to find the pids for:
+ 
+`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/find_process.py | python - sshd`
+
+Example output:
+
+```
+/usr/sbin/sshd 1069
+/usr/sbin/sshd 3245
+```
+
+
 <br />
 
 <br />
@@ -53,40 +122,4 @@ faea7607-4f4e-4b05-a0b2-995510a15327
 90694e50-658c-4eee-af4c-e29bdb05ab6a
 54a4beaf-4b0a-473d-82e3-9a3cc371d879
 cd88c08e-ae5b-4ac4-b84d-4c79102402ad
-```
-<br />
-
-<br />
-
-<br />
-
-
-### Count Files in a directory
-Replace `"/var/www"` with the directory you wish to count the files in. 
-
-`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/count_files.py | python - "/var/www"`
-
-Example Output:
-
-```
-/var/www
-65,472 files, 27,003 folders
-```
-<br />
-
-<br />
-
-<br />
-
-### Find PID of a Service
-
-Replace `sshd` with the service name you wish to find the pids for:
- 
-`curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/find_process.py | python - sshd`
-
-Example output:
-
-```
-/usr/sbin/sshd 1069
-/usr/sbin/sshd 3245
 ```
