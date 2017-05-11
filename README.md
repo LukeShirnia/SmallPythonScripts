@@ -40,7 +40,7 @@ curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/
 Example:
 
 ```
-curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/slash-notation_to_dotted-decimal.py  | python -ip 123.123.12.12/22
+curl -s https://raw.githubusercontent.com/LukeShirnia/SmallPythonScripts/master/slash-notation_to_dotted-decimal.py  | python - --ip 123.123.12.12/22
 ```
 
 Example Output:
